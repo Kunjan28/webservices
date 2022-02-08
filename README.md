@@ -7,6 +7,6 @@
 1. Install node modules using node packet manager ( npm install )
 2. Run server ( npm start )
 
-### Postman testing instructions:
+### Postman API testing instructions:
 
 GET : localhost:8000/healthz
