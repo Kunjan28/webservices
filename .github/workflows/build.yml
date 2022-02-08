@@ -3,11 +3,13 @@ name: CI
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
     # The type of runner that the job will run on
-    name: Upload to S3 and Initializing Code Deploy
+    name: Initializing Code Deploy
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
